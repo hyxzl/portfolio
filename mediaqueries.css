@@ -1,0 +1,108 @@
+/* Ecrãs Médios / Tablets (Até 1200px) */
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+
+    #hamburguer-nav {
+        display: flex;
+    }
+
+    section,
+    #profile {
+        margin: 0 5rem;
+    }
+
+    #profile {
+        gap: 3rem;
+    }
+
+    .section-conteiner {
+        flex-direction: column;
+    }
+
+    .arrow {
+        display: none;
+    }
+}
+
+/* Ecrãs Pequenos / Celulares (Até 600px) */
+@media screen and (max-width: 600px) {
+    section,
+    #profile {
+        margin: 0 1.5rem;
+        padding-top: 2rem;
+    }
+
+    /* Perfil */
+    #profile {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        height: auto;
+    }
+
+    .section__pic-conteiner {
+        width: 220px;
+        height: 220px;
+        max-width: 80vw;
+        margin: 0 auto;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .section__text__p2 {
+        font-size: 1.25rem;
+    }
+
+    /* Botões */
+    .btn-conteiner {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 0.75rem;
+    }
+
+    .btn {
+        width: 200px;
+        max-width: 100%;
+    }
+
+    /* Sobre Mim */
+    .about-conteiners {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    /* Experiência */
+    .article-conteiners {
+        gap: 1.5rem;
+    }
+
+    .article {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* Contactos (Solução para o vazamento de texto e container) */
+    .contact-info-upper-conteiner {
+        flex-direction: column;
+        width: 100%;
+        margin: 1rem auto;
+        padding: 0.8rem;
+    }
+
+    .contact-info-conteiner {
+        margin: 0.5rem 0;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .contact-info-conteiner p {
+        font-size: 0.95rem;
+        text-align: center;
+    }
+}
